@@ -85,7 +85,7 @@ public class StudentController
         model.addAttribute ("students", students);
 
         return "viewall";
-    }
+    } 
 
 
     @RequestMapping("/student/delete/{npm}")
